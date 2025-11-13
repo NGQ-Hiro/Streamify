@@ -125,9 +125,9 @@ def writeStream(stream, table_name, checkpoint_path, trigger="5 seconds", output
             append, complete, update
     """
     sfOptions = {
-    "sfURL" : "YSGRKUY-PI88233.snowflakecomputing.com",
+    "sfURL" : "YSG-PI88233.snowflakecomputing.com",
     "sfUser" : "HI196732",
-    "sfPassword" : "8wDGa7XLKq4ncjn",
+    "sfPassword" : "8wDGncjn",
     "sfDatabase" : "STREAMIFY",
     "sfSchema" : "STAGING",
     "sfWarehouse" : "COMPUTE_WH"
